@@ -2,8 +2,27 @@
 
 REST-Rant is an app where users can review resteraunts.
 
-|name |city |state |cuisines| pic
-|-----|-----|------|--------|----
+
+
+Field | Type|
+|-----|-------|
+|name | String|
+|city | String|
+|state | String|
+|cuisines | String|
+|pic | String|
+
+
+
+Field | Type|
+|----|------|
+|_id | Object ID|
+|place_id | ref(places) Object_id|
+|rant | Boolean|
+|comment | string|
+|reviewer | string|
+
+
 
 |Method  |Path   |Purpose|
 |-------|-------|-------|
